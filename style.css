@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    background-color: rgb(208, 118, 28);
+    z-index: 2;
+}
+.nav-text{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-text>div{
+    font-size: 110%;
+    display: flex;
+    align-items: center;
+}
+.nav-text>div:hover{
+    border-top: 4px solid rgb(21, 192, 239);
+    color: rgb(121, 118, 118);
+}
+#about:hover + span{
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 7rem;
+    width: 10rem;
+    padding:0% 1%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#about-s{
+    position: absolute;
+    top: 60%; 
+    left: 70%;
+    display: none;
+}
+#about-s:hover{
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 7rem;
+    width: 10rem;
+    padding:0% 1%;
+    border: 1px solid black;
+    background-color: white;
+    
+} 
+#about-s p:hover{
+    display: flex ;
+    flex-direction: column;
+    color: rgb(223, 165, 16);
+    background-color: rgb(8, 6, 6);
+    width: 100%;
+    font-size: 110%;
+}
+.para{
+    display: flex;
+    position: relative;
+    top: 5rem;
+}
+.para-div{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.para-div>div{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.actor{
+    width: 60%;
+}
+.actor i:hover{
+    color: rgb(142, 137, 137);
+}
+.icon{
+    text-align: center;
+    margin-top: 3%;
+}
+.btn{
+    position: relative;
+    display: flex;
+    top: 5rem;
+    padding: 4%;
+    background-color: rgb(132, 126, 126);
+    
+    
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    border: none;
+    border-radius: 6px;
+    margin: 3%;
+    padding: 1%;
+    color: black;
+    font-size: 100%;
+}
+.btn button:hover{
+    color: rgb(151, 147, 147);
+}
+
+footer{
+    display: flex;
+    position: relative;
+    top: 5rem;
+    background-color: rgb(86, 153, 156);
+    align-items: center;
+    flex-direction: column;
+}
+footer div{
+    text-align: center;
+    color: rgb(216, 203, 179);
+}
